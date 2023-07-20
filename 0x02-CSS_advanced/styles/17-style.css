@@ -89,8 +89,14 @@ a:active {
     color: var(--color-primary);
 }
 
+.section {
+    padding: var(--section-padding);
+}
+
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
+
 }
 
 .section-body {
@@ -102,9 +108,6 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
-.section {
-    padding: var(--section-padding);
-}
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -127,5 +130,4 @@ a:active {
 
 .footer {
     padding: var(--footer-padding);
-    
 }
